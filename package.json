@@ -1,0 +1,13 @@
+{
+  "name": "DanielBOT",
+  "version": "0.0.1",
+  "description": "FINStudio's bot",
+  "main": "bot.js",
+  "author": "Wyktert",
+  "dependencies": {
+    "datamuse": "^1.0.5",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "winston": "^3.1.0"
+  }
+}
