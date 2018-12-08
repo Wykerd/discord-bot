@@ -508,4 +508,4 @@ function endHangman(msg){
 }
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login(progress.env.token); // Replace with your own token!
+client.login(process.env.token); // Replace with your own token!
