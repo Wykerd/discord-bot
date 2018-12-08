@@ -4,7 +4,7 @@
 // Dictionary searches are provided by datamuse API
 
 const Discord = require('discord.js');
-var auth = require('./auth.json');
+//var auth = require('./auth.json');
 var cmds = require('./commands.json');
 var config = require('./config.json');
 var fs = require("fs");
