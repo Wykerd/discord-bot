@@ -1,3 +1,6 @@
 #Packages
 node-modules/
 package-lock.json
+
+#Run script
+run.cmd
