@@ -319,7 +319,11 @@ function delPhrase(msg){
         } else {
             var objJSON = JSON.stringify(cmds.guilds[guildNo].phrases[likelyPhrase.position]);
             cmds.guilds[guildNo].phrases.splice(likelyPhrase.position, 1);
-            msg.channel.send('Successfully deleted '+objJSON);
+            fs.writeFile('./commands.json', JSON.stringify(cmds), (err) =>{
+                if (err) throw err;
+                console.log('Removed command from commands.json');
+                msg.channel.send('Successfully deleted '+objJSON);
+            });
         }
     }
 
