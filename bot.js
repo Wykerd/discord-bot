@@ -4,7 +4,7 @@
 // Dictionary searches are provided by datamuse API
 
 const Discord = require('discord.js');
-//var auth = require('./auth.json');
+var auth = require('./auth.json');
 var cmds = require('./commands.json');
 var config = require('./config.json');
 var fs = require("fs");
@@ -512,4 +512,4 @@ function endHangman(msg){
 }
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login(process.env.token); // Replace with your own token!
+client.login(auth.token); // Replace with your own token!
