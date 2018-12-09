@@ -1,5 +1,5 @@
 #Packages
-node-modules/
+node_modules/
 package-lock.json
 
 #Run script
